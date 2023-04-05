@@ -1,8 +1,10 @@
 # BUG的个人页面
-<audio autoplay="autoplay" loop="">
-    <source src="lyzl.mp3">
-</audio>
+<style>
 @font-face {
   font-family:'dinglufont'
   src: url('dingtalk.ttf')
-}
+</style>
+<audio autoplay="autoplay" loop="">
+    <source src="lyzl.mp3">
+</audio>
+
