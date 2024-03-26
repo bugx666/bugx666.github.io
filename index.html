@@ -5,21 +5,8 @@
  <meta name="viewport" content="width=device-width">
 <title>密西西比——历史之外</title>
  <style>
-@font-face
-{
-    font-family: 'openSans';
-    src: url('../font/qt.ttf');
-    font-weight: normal;  
-    font-style: normal;  
-}
-  p { 
-     font-family: "openSans";
-     font-size: 1.3em;
- }
-  h1 { 
-     font-family: "openSans";
-     font-size: 1.5em;
- }
+  p { font-size: 1.3em;}
+  h1 { font-size: 1.5em;}
   </style>
 </head>
 <body>
@@ -35,6 +22,12 @@
 <p>紫色的云彩，</br>遮住半边苍穹。</br>那落日的余晖，</br>将洒在谁的天空？</br>浮云有意，落日有情——</br>不过归家之期。</p>
 <p>硬币只有两面，</br>增加一面又何妨。</br>三生万物，</br>命运的齿轮就此诞生。</br>被选中的孩子一挥手，</br>引来风中一片金黄。</p>
 <p>坟墓中埋着时间，</br>徘徊在等待之前。</br>重启的瞬间，</br>抹去了山巅的宣言。</p>
+ 
+<script>
+ var myFont = new Font('/path/to/font.ttf', 14);
+document.body.style.font = myFont.fontString;
+</script>
+ 
 </body>
  
 </html>
